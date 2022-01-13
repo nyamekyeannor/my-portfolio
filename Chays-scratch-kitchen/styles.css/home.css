@@ -135,7 +135,7 @@ body{
 
 /* <!-- ======= CSS Reset End======= -->*/
 
-/* <!-- ======= Home Page Top  ======= -->*/
+/* <!-- ======= Hero Section  ======= -->*/
 
 .hero {
   background-color: black;
@@ -246,9 +246,9 @@ a:hover {
   #check:checked ~ ul {
     left: 0;
   }
-/* <!-- ======= End Of Home Page Top  ======= -->*/
+/* <!-- ======= End Of Hero Section ======= -->*/
 
-/* <!-- ======= Special page  ======= -->*/
+/* <!-- =======  Our Special Section  ======= -->*/
 
 .special-page{
   background-color: rgb(0, 0, 0);
@@ -292,6 +292,11 @@ a:hover {
 .dish-img img{
   width: 150px; 
 }
+
+/* <!-- =======  End Of Our Special Section  ======= -->*/
+
+/* <!-- =======  Location Section  ======= -->*/
+
 
 
 
