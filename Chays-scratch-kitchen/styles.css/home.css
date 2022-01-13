@@ -129,6 +129,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body{
+  background-color: rgb(0, 0, 0);
+}
 
 /* <!-- ======= CSS Reset End======= -->*/
 
@@ -138,7 +141,7 @@ table {
   background-color: black;
   color: white;
   box-sizing: border-box;
-  background: url(/Chays-scratch-kitchen/home-img/jumbotronpic.jpg);
+  background: url(/Chays-scratch-kitchen/images/jumbotronpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -173,7 +176,7 @@ nav ul li a {
   padding: 7px 13px;
   text-transform: uppercase;
 }
-img {
+img  {
   width: 100px;
 }
 
@@ -202,6 +205,7 @@ a:hover {
   font-size: 15px;
   padding-bottom: 40%;
 }
+
 
 @media (max-width: 952px) {
   label.logo {
@@ -246,8 +250,52 @@ a:hover {
 
 /* <!-- ======= Special page  ======= -->*/
 
+.special-page{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+}
+
+.special-heading{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 100%;
+  padding-bottom:10%;
+  font-family: Zapfino;
+}
+
+.dish-title{
+  font-size: 20px;
+  padding-bottom: 15%;
+}
+
+.dish-discribe{
+  font-size: 13px;
+}
+.dish-description{
+  background-color: rgb(214, 163, 129);
+  width: 35%;
+  text-align: center;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+  margin: 10px;
+}
+
+
+.dish-item-description{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+}
+
+.dish-img img{
+  width: 150px; 
+}
 
 
 
 
-  
+
+
+
