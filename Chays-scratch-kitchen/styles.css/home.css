@@ -269,7 +269,7 @@ a:hover {
   padding-bottom: 15%;
 }
 
-.dish-discribe{
+.dish-describe{
   font-size: 13px;
 }
 .dish-description{
@@ -299,8 +299,40 @@ a:hover {
 
 
 
+.location-section{
+  color: white;
+  text-align: center;
+  background-image: url(/Chays-scratch-kitchen/images/location.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5%;
+  background-position: center;
+  font-size: 15px;
+}
+
+.location-tittle{
+  font-size: 20px;
+  font-family: Zapfino;
+  margin-top: 50px;
+    padding-top: 5%;
+
+}
 
 
 
+/* <!-- =======  End Of Location Section  ======= -->*/
+
+
+
+.footer-section{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 11px;
+}
+
+.contact-info{
+  margin-top: 20px;
+}
 
 
