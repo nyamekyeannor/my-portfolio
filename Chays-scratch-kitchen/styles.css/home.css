@@ -129,7 +129,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body{
+body {
   background-color: rgb(0, 0, 0);
 }
 
@@ -151,14 +151,25 @@ body{
 a {
   text-decoration: none;
 }
+.fa-facebook-square,
+.fa-envelope,
+.bi-instagram {
+  color: white;
+  display: flex;
+  padding-left: 30px;
+  margin: 5px;
+}
 
 .logo {
   color: white;
   line-height: 80px;
-  padding: 0 100px;
-  margin-top: 10px;
+  padding-left: 20px;
+  margin-top: 3%;
+  padding-bottom: 5%;
 }
-
+img {
+  width: 80px;
+}
 nav ul {
   float: right;
   margin-right: 20px;
@@ -176,9 +187,6 @@ nav ul li a {
   padding: 7px 13px;
   text-transform: uppercase;
 }
-img  {
-  width: 100px;
-}
 
 a:hover {
   background: grey;
@@ -195,17 +203,116 @@ a:hover {
   display: none;
 }
 
-
 #check {
   display: none;
 }
 
-.social-links {
-  margin: 5%;
-  font-size: 15px;
-  padding-bottom: 40%;
+ul {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgb(29, 28, 42);
+  top: 80px;
+  left: -100%;
+  text-align: center;
+  margin-top: 50px;
+  transition: all 0.5s;
+}
+nav ul li {
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+nav ul li a {
+  font-size: 20px;
+}
+a:hover {
+  background: none;
+  color: rgb(139, 85, 3);
+}
+#check:checked ~ ul {
+  left: 0;
+}
+/* <!-- ======= End Of Hero Section ======= -->*/
+
+/* <!-- =======  Our Special Section  ======= -->*/
+
+.special-page {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
 }
 
+.special-heading {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 100%;
+  padding-bottom: 10%;
+  font-family: Zapfino;
+}
+
+.dish-title {
+  font-size: 20px;
+  padding-bottom: 15%;
+}
+
+.dish-describe {
+  font-size: 13px;
+}
+.dish-description {
+  background-color: rgb(214, 163, 129);
+  width: 35%;
+  text-align: center;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+  margin: 10px;
+}
+
+.dish-item-description {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+}
+
+.dish-img img {
+  width: 150px;
+}
+
+/* <!-- =======  End Of Our Special Section  ======= -->*/
+
+/* <!-- =======  Location Section  ======= -->*/
+
+.location-section {
+  color: white;
+  text-align: center;
+  background-image: url(/Chays-scratch-kitchen/images/location.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5%;
+  background-position: center;
+  font-size: 15px;
+}
+
+.location-tittle {
+  font-size: 20px;
+  font-family: Zapfino;
+  margin-top: 50px;
+  padding-top: 5%;
+}
+
+/* <!-- =======  End Of Location Section  ======= -->*/
+
+.footer-section {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 11px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
 
 @media (max-width: 952px) {
   label.logo {
@@ -220,119 +327,4 @@ a:hover {
   .checkbtn {
     display: block;
   }
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgb(29, 28, 42);
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    margin-top: 50px;
-    transition: all 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  a:hover {
-    background: none;
-    color: rgb(139, 85, 3);
-  }
-  #check:checked ~ ul {
-    left: 0;
-  }
-/* <!-- ======= End Of Hero Section ======= -->*/
-
-/* <!-- =======  Our Special Section  ======= -->*/
-
-.special-page{
-  background-color: rgb(0, 0, 0);
-  color: white;
-  align-items: center;
 }
-
-.special-heading{
-  text-align: center;
-  margin-top: 10%;
-  font-size: 100%;
-  padding-bottom:10%;
-  font-family: Zapfino;
-}
-
-.dish-title{
-  font-size: 20px;
-  padding-bottom: 15%;
-}
-
-.dish-describe{
-  font-size: 13px;
-}
-.dish-description{
-  background-color: rgb(214, 163, 129);
-  width: 35%;
-  text-align: center;
-  border-top-left-radius: 6%;
-  border-top-right-radius: 6%;
-  margin: 10px;
-}
-
-
-.dish-item-description{
-  display: flex;
-  justify-content: space-evenly;
-  background-color: rgb(26, 26, 26);
-  width: 100%;
-}
-
-.dish-img img{
-  width: 150px; 
-}
-
-/* <!-- =======  End Of Our Special Section  ======= -->*/
-
-/* <!-- =======  Location Section  ======= -->*/
-
-
-
-.location-section{
-  color: white;
-  text-align: center;
-  background-image: url(/Chays-scratch-kitchen/images/location.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 5%;
-  background-position: center;
-  font-size: 15px;
-}
-
-.location-tittle{
-  font-size: 20px;
-  font-family: Zapfino;
-  margin-top: 50px;
-    padding-top: 5%;
-
-}
-
-
-
-/* <!-- =======  End Of Location Section  ======= -->*/
-
-
-
-.footer-section{
-  color: white;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 11px;
-}
-
-.contact-info{
-  margin-top: 20px;
-}
-
-
