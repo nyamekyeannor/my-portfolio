@@ -264,7 +264,8 @@ body {
   font-size: 14px;
 }
 
-.comment-btn {
+.comment-btn,
+.action-btn {
   width: 70px;
   height: 100%;
   background: none;
@@ -274,6 +275,7 @@ body {
   font-size: 16px;
   color: rgba(0, 162, 255, 0.973);
   opacity: 0.5;
+  /* text-align: center; */
 }
 
 .reaction-wrapper {
@@ -294,3 +296,61 @@ body {
   margin-left: auto;
 }
 /* END OF POST SECTION */
+
+/* START OF SUGGESTION SECTION */
+
+.right-col {
+  padding: 20px;
+}
+
+.profile-card {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-card .profile-pic {
+  flex: 0 0 auto;
+  padding: 0;
+  background: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.profile-card:first-child .profile-pic {
+  width: 70px;
+  height: 70px;
+}
+
+.profile-card .profile-pic img {
+  border: none;
+}
+
+.profile-card .username {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.sub-text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+}
+
+.action-btn {
+  opacity: 1;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.suggestion-text {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  margin: 20px 0;
+}
